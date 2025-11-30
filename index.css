@@ -6,6 +6,7 @@
 */
 
 @import url("./catppuccin.css");
+@import url("https://assets.c48.uk/fonts/lexend.css");
 
 /* reset */
 *,
@@ -20,9 +21,7 @@
 
 /* variables */
 body {
-  --font-sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI Variable",
-    "Segoe UI", "Roboto Flex", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
-    "Helvetica Neue", Helvetica, Arial, "Noto Sans", sans-serif,
+  --font-sans: "Lexend",
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-mono: ui-monospace, "SF Mono", Menlo, Monaco, "Cascadia Mono",
     "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Mono",
