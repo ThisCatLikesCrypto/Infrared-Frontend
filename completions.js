@@ -8,7 +8,7 @@ async function getCompletions(query) {
   try {
     console.log("[suggestions] fetching results for query " + query);
     const response = await fetch(
-      `https://decorsify.bomberfish-industries.workers.dev/?url=https://duckduckgo.com/ac/?q=${query}&type=list`
+      `https://cors.ir.wilburwilliams.com/?url=https://duckduckgo.com/ac/?q=${query}&type=list`
     );
     const data = await response.json();
     console.log("[suggestions] response:", data);
